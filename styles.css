@@ -15,17 +15,18 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #86C3FC;
+	font-weight: 400;
 }
 a:hover {
-  color: #6633ff;
+  color: #0081FB;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #635B5A;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -34,7 +35,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 400;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -43,7 +44,6 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +52,15 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
+}
+.selected {
+	color: white;
 }
 
 header {
   text-align: center;
-  background: url('images/profile-website-bg-2.jpg') no-repeat center center ;
+  background: url('images/profile-website-bg-5.jpg') no-repeat center center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -66,18 +69,18 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 75px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #CFE8FF;
+  border: 2px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
 	transform: scale(.8) rotate(5deg);
 }
 .tag {
-  background-color: #222;
+  background-color: #635B5A;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -85,9 +88,9 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
+  background-color: #635B5A;
   color: #CFE8FF;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 .card {
   margin: 30px;
@@ -100,7 +103,11 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #AD6F1F;
+  border-color: #635B5A;
+}
+.card h2 {
+	color: #635B5A;
+	font-weight: 700;
 }
 
 ul.skills {
@@ -111,15 +118,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #AD6F1F;
-  color: white;
+  background: #635B5A;
+  color: #CFE8FF;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
   background: #CFE8FF;
-	color: #717171;
+	color: #635B5A;
 }
 
 footer {
@@ -168,6 +175,65 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+.button {
+	border-radius: 10px;
+  display: inline-block;
+  background: #635B5A;
+  padding: 8px 20px;
+  margin: 2px auto;
+}
+a.button {
+	  color: #fff;
+}
+a.button:hover {
+	  color: #0081FB;
+}
+
+/* Experience Page Styles */
+
+header.experience-hero {
+	  background: url('images/experience-bg-1.jpg') no-repeat center -95px;
+		background-size: cover;
+  	overflow: hidden;
+  	padding-top: 60px;
+}
+
+.tag.experience-hero-title {
+	margin-top: 170px;
+}
+
+.fa-download {
+		color: #fff;
+		margin-right: 5px;
+}
+
+.fa-download:hover {
+	color: #0081FB;
+}
+
+/* Contact Page Styles */
+
+header.contact-hero {
+	  background: url('images/contact-bg-2.jpg') no-repeat center -500px;
+		background-size: cover;
+  	overflow: hidden;
+  	padding-top: 60px;
+}
+
+.tag.contact-hero-title {
+	margin-top: 170px;
+}
+
+.contact-info {
+	  margin-left: 10px;
+    font-weight: 700;
+}
+
+.card.form-card {
+		max-width: 700px;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
