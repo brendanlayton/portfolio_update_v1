@@ -42,8 +42,8 @@ a:hover {
 }
 
 .nav .name {
-    display: block;
-    margin-right: auto;
+	display: block;
+	margin-right: auto;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -184,19 +184,19 @@ a.social:hover {
   margin: 2px auto;
 }
 a.button {
-	  color: #fff;
+	color: #fff;
 }
 a.button:hover {
-	  color: #0081FB;
+	color: #0081FB;
 }
 
 /* Experience Page Styles */
 
 header.experience-hero {
-	  background: url('images/experience-bg-1.jpg') no-repeat center -95px;
-		background-size: cover;
-  	overflow: hidden;
-  	padding-top: 60px;
+	background: url('images/experience-bg-1.jpg') no-repeat center -95px;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
 }
 
 .tag.experience-hero-title {
@@ -204,8 +204,8 @@ header.experience-hero {
 }
 
 .fa-download {
-		color: #fff;
-		margin-right: 5px;
+	color: #fff;
+	margin-right: 5px;
 }
 
 .fa-download:hover {
@@ -215,10 +215,10 @@ header.experience-hero {
 /* Contact Page Styles */
 
 header.contact-hero {
-	  background: url('images/contact-bg-2.jpg') no-repeat center -500px;
-		background-size: cover;
-  	overflow: hidden;
-  	padding-top: 60px;
+	background: url('images/contact-bg-2.jpg') no-repeat center -500px;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
 }
 
 .tag.contact-hero-title {
@@ -226,12 +226,12 @@ header.contact-hero {
 }
 
 .contact-info {
-	  margin-left: 10px;
-    font-weight: 700;
+	margin-left: 10px;
+	font-weight: 700;
 }
 
 .card.form-card {
-		max-width: 700px;
+	max-width: 700px;
 }
 
 
